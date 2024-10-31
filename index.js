@@ -3,8 +3,8 @@ const path = require('path')
 const axios = require('./speed-limiter')
 const cheerio = require('cheerio')
 
-const bookID = '9781319081799'
-const baseURL = `https://jigsaw.vitalsource.com/books/${bookID}/epub/`
+const bookID = '24c4a6e3-c6c5-9674-ab75-b64c279faf5d'
+const baseURL = `https://jigsaw.vitalsource.com/books/978-0-86612-566-6/epub/`
 const fsRelativePath = './epub/'
 
 // Cookie value sent to jigsaw.vitalsource.com from the browser
